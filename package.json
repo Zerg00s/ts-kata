@@ -6,31 +6,31 @@
   "scripts": {
     "start": "webpack --watch",
     "watch": "echo \"STARTED\" && exit 1",
-    "test": "mocha --require ts-node/register test/**/*.ts",
+    "test": "jest",
     "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.18",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^10.14.12",
     "awesome-typescript-loader": "^5.2.1",
     "chai": "^4.2.0",
     "css-loader": "^2.0.2",
     "eslint": "^5.10.0",
     "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0",
     "mini-css-extract-plugin": "^0.5.0",
-    "mocha": "^5.2.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "ts-jest": "^24.0.2",
     "ts-node": "^7.0.1",
     "tslint-config-prettier": "^1.17.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.2.2",
+    "typescript": "^3.5.3",
     "webpack": "^4.28.1",
     "webpack-cli": "^3.1.2"
   }
-  
 }

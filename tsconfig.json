@@ -2,6 +2,7 @@
     "compilerOptions": {
       "outDir": "tmp",
       "target": "es5",
+      "strict": true,
       "module": "commonjs",
       "lib": [
         "es2017",
@@ -17,13 +18,15 @@
       "experimentalDecorators": true,
       "skipLibCheck": true,
       "types": [
-        "mocha",
+        "jest",
         "node"
       ],
   
     },
+    "include": ["src/**/*"],
     "exclude": [
       "node_modules",
+      "**/*.spec.ts",
       "webpack.config.js",
       "gulpfile.js",
       "build",
