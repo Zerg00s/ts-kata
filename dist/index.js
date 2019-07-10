@@ -91,7 +91,9 @@
   !*** ./src/scripts/index.ts ***!
   \******************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 var Hello = (function () {
     function Hello() {
